@@ -1,0 +1,54 @@
+# System-specific files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# CodeIgniter cache and logs (keep placeholder files)
+application/cache/*
+!application/cache/index.html
+
+application/logs/*
+!application/logs/index.html
+
+# Keep .htaccess files inside subfolders
+!application/*/.htaccess
+
+# Environment configuration (if using dotenv)
+.env
+*.env
+
+# Composer dependencies
+/vendor/
+composer.lock
+
+# PHPUnit test database (optional)
+tests/mocks/database/ci_test.sqlite
+
+# CI3 User Guide build artifacts
+user_guide_src/build/*
+user_guide_src/cilexer/build/*
+user_guide_src/cilexer/dist/*
+user_guide_src/cilexer/pycilexer.egg-info/*
+
+# IDE & Editor configuration files
+.nbproject/
+.idea/
+.vscode/
+
+# Sublime Text
+*.sublime-workspace
+*.sublime-project
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+
+# Test artifacts and result outputs
+/tests/tests/
+/tests/results/
+
+# Backup or temporary files
+*.bak
+*.tmp
+*.swp
+*.swo
+*.~*
